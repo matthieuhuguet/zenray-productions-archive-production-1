@@ -1,0 +1,21 @@
+# LouisianaBayou : feedback, prompts and rules (append only)
+
+## Prompt log
+- 2026-09-18 11:15 : Relance la scene LouisianaBayou, save tous les graphs dans l ordre et les nouveaux composants, puis on commence le texturing Copernicus sur nos propres planches. Reexplique UV texel density, harmonie globale et decalage comme a un enfant de 10 ans, puis on fait une base height propre. Ouvrir Unreal pour bridger la scene : USD par Solaris, ou FBX plus textures, ou peut-etre MCP. Aller vite : finir le projet et le mettre sur le store.
+
+## Order of work
+- 2026-09-18 11:15 : Ordre de travail : 1 relancer la scene, 2 sauver tous les graphs et les nouveaux composants, 3 UV et texel density expliques puis verifies, 4 base height Copernicus propre, 5 export vers Unreal, 6 store.
+
+## Standing rules
+- 2026-09-18 11:15 : Cadence imposee : ce projet doit finir vite et partir sur le store, parce que les demarches commerciales et le plan Japon passent avant le polish. L apres-midi est reservee au japonais.
+
+## Log
+- 2026-09-18 11:21 : Base height Copernicus : reseau Cop_Base_Height_Planks_01 cree (tilepattern stretcherbond, wrangle niveau par planche et fil du bois, blur de chanfrein, remap, rop_image 2048). L export sort BLANC, le reseau cuit sans erreur mais l image est uniforme : une passe de correction reste due sur la couche de sortie du wrangle.
+- 2026-09-18 11:33 : Base height planches : cause trouvee par mesure. 1) les couches du wrangle etaient en vector4, la hauteur partait dans l alpha et l image sortait blanche. 2) la couche ID n est pas liee, mesuree a zero, l index de planche se calcule depuis @P. 3) @P va de -1 a 1 en Copernicus. 4) le blur de chanfrein avait un rayon de 3 en unites d image, il moyennait toute la texture : a 0.0015 l ecart-type passe de 0.02 a 0.12 et les planches apparaissent.
+
+## 2 October 2026, 13:14:51 +0200 : Historical source
+
+<!-- feedback-event:a7b3b8bc6cb08fb97b75fc5fa3e0ea089df0d1b666d06c89049b3df54dc932b7 (2 October 2026, 13:14:51 +0200) -->
+- Project: louisiana-bayou; kind: provenance. (2 October 2026, 13:14:51 +0200)
+
+> Future feedback is recorded in [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/louisiana-bayou/FEEDBACK.md). (2 October 2026, 13:14:51 +0200)

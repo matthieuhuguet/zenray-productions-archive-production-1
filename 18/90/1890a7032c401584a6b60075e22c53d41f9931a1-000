@@ -1,0 +1,74 @@
+# 2026-09-19 : tidy /obj by object type, into labelled network boxes.
+# FR : range /obj par type d'objet, dans des boites reseau etiquetees.
+#
+# The order of the columns follows the pipeline : what the scene IS, then what LOOKS at it,
+# then what TEXTURES it, then the rest.
+# FR : l'ordre des colonnes suit le pipeline : ce que la scene EST, ce qui la REGARDE,
+# ce qui la TEXTURE, puis le reste.
+
+import hou
+
+# column title, colour, and the test that puts a node in it
+# FR : titre de colonne, couleur, et le test qui y range un noeud
+CATEGORIES = [
+    ('BATI   l eglise et ses composants', (0.35, 0.52, 0.72),
+     lambda n: n.type().name() == 'geo' and (n.name() in ('Church', 'Component_WindowA', 'Component_WindowB')
+                                             or n.name().startswith('Showcase_'))),
+    ('ENVIRONNEMENT   terrain, cloture, herbe', (0.32, 0.60, 0.40),
+     lambda n: n.name() in ('Terrain', 'Fence', 'Fence_Picket', 'FenceDev', 'Entrance_Arch',
+                            'Grass_System', 'Layout_ChurchYard', 'Ground_Plane', 'zr_backdrop')),
+    ('COMPARAISON   bancs de test', (0.55, 0.45, 0.70),
+     lambda n: n.name().startswith('CMP_')),
+    ('CAMERAS ET RIGS   ce qui regarde', (0.45, 0.62, 0.45),
+     lambda n: n.type().name() in ('cam', 'null')),
+    ('COPERNICUS   ce qui texture', (0.78, 0.55, 0.32),
+     lambda n: n.type().name() == 'copnet'),
+    ('LUMIERES   lookdev', (0.80, 0.74, 0.35),
+     lambda n: 'light' in n.type().name()),
+    ('DIVERS', (0.45, 0.45, 0.45), lambda n: True),
+]
+
+COLUMN_WIDTH = 5.2
+ROW_HEIGHT = 1.35
+TOP = 0.0
+
+
+def tidy(network='/obj'):
+    root = hou.node(network)
+    nodes = [n for n in root.children()]
+
+    # empty the old boxes so nothing is boxed twice
+    # FR : on vide les anciennes boites pour ne rien encadrer deux fois
+    for box in root.networkBoxes():
+        box.destroy()
+
+    buckets = [[] for _ in CATEGORIES]
+    for node in nodes:
+        for index, (_, _, test) in enumerate(CATEGORIES):
+            if test(node):
+                buckets[index].append(node)
+                break
+
+    report = []
+    x = 0.0
+    for (title, colour, _), bucket in zip(CATEGORIES, buckets):
+        if not bucket:
+            continue
+        bucket.sort(key=lambda n: n.name().lower())
+        for row, node in enumerate(bucket):
+            node.setPosition(hou.Vector2(x, TOP - row * ROW_HEIGHT))
+            node.setColor(hou.Color(colour))
+        box = root.createNetworkBox()
+        box.setComment(title)
+        box.setColor(hou.Color(colour))
+        for node in bucket:
+            box.addItem(node)
+        box.fitAroundContents()
+        report.append((title, len(bucket), [n.name() for n in bucket]))
+        x += COLUMN_WIDTH
+    return report
+
+
+if __name__ == '__main__':
+    for title, count, names in tidy():
+        print('%-36s %2d  %s' % (title, count, ', '.join(names)))

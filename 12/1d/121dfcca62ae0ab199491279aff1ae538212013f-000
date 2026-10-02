@@ -1,0 +1,209 @@
+# 2026-09-19 : rebuild the missing environment of the Louisiana Bayou church :
+# heightfield ground, picket fence with its gate, entrance arch, and scattered grass.
+# FR : reconstruit l'environnement manquant de l'eglise : sol en heightfield, cloture a piquets
+# avec son portail, arche d'entree, et herbe scatteree.
+#
+# Every dimension lives in PARAMS : one place to change, HDA law.
+# FR : toute dimension vit dans PARAMS : un seul endroit ou changer, loi HDA.
+
+import hou
+
+PARAMS = {
+    # ground
+    'ground_size': 60.0,          # metres, square
+    'ground_res': 0.35,           # metres per sample
+    'mound_height': 1.6,          # the rise the church sits on
+    'mound_radius': 13.0,
+    'noise_height': 0.28,
+    'noise_size': 9.0,
+    'pad_radius': 7.5,            # flat pad under the church
+    'pad_falloff': 3.5,
+
+    # fence
+    'plot_half_x': 11.0,          # the fence runs around this rectangle
+    'plot_half_z': 13.0,
+    'fence_height': 1.05,
+    'picket_width': 0.075,
+    'picket_thickness': 0.022,
+    'picket_spacing': 0.135,
+    'picket_point': 0.09,         # the little pyramid on top
+    'post_size': 0.13,
+    'post_spacing': 2.4,
+    'rail_height': 0.055,
+    'rail_thickness': 0.03,
+    'gate_width': 2.2,            # opening on the entrance side
+
+    # entrance arch
+    'arch_span': 2.6,
+    'arch_height': 2.55,
+    'arch_leg': 0.14,
+    'arch_rise': 0.75,
+    'cross_height': 0.62,
+    'cross_arm': 0.30,
+    'cross_thickness': 0.075,
+
+    # grass
+    'grass_count': 60000,
+    'blade_height': 0.34,
+    'blade_width': 0.022,
+    'blade_segments': 3,
+    'grass_clear_radius': 8.2,    # no grass under the church
+}
+
+OBJ = hou.node('/obj')
+
+
+def fresh(name):
+    """A clean geo node, replacing any previous one."""
+    old = OBJ.node(name)
+    if old:
+        old.destroy()
+    return OBJ.createNode('geo', name)
+
+
+def python_sop(parent, name, code):
+    sop = parent.createNode('python', name)
+    sop.parm('python').set(code)
+    return sop
+
+
+# ----------------------------------------------------------------------------- ground
+def build_ground():
+    g = fresh('Env_Ground')
+    size = PARAMS['ground_size']
+    res = PARAMS['ground_res']
+
+    hf = g.createNode('heightfield', 'field')
+    hf.parm('gridspacing').set(res)
+    hf.parmTuple('size').set((size, size))
+
+    noise = g.createNode('heightfield_noise', 'relief')
+    noise.setFirstInput(hf)
+    noise.parm('amp').set(PARAMS['noise_height'])
+    noise.parm('elementsize').set(PARAMS['noise_size'])
+
+    mound = python_sop(g, 'mound_and_pad', '''
+# The church sits on a low mound, flattened where the walls land.
+# FR : l'eglise est posee sur une legere butte, aplatie la ou portent les murs.
+import hou, math
+node = hou.pwd()
+geo = node.geometry()
+P = %r
+vol = geo.prims()[0]
+res = vol.resolution()
+for i in range(res[0]):
+    for j in range(res[1]):
+        pos = vol.indexToPos((i, j, 0))
+        d = math.sqrt(pos[0] * pos[0] + pos[2] * pos[2])
+        rise = P['mound_height'] * math.exp(-(d / P['mound_radius']) ** 2)
+        h = vol.voxel((i, j, 0)) + rise
+        if d < P['pad_radius'] + P['pad_falloff']:
+            t = max(0.0, min(1.0, (P['pad_radius'] + P['pad_falloff'] - d) / P['pad_falloff']))
+            t = t * t * (3 - 2 * t)
+            h = h * (1 - t) + P['mound_height'] * t
+        vol.setVoxel((i, j, 0), h)
+''' % PARAMS)
+    mound.setFirstInput(noise)
+
+    convert = g.createNode('convertheightfield', 'to_polygons')
+    convert.setFirstInput(mound)
+
+    normals = g.createNode('normal', 'normals')
+    normals.setFirstInput(convert)
+    out = g.createNode('null', 'OUT_ground')
+    out.setFirstInput(normals)
+    out.setDisplayFlag(True)
+    out.setRenderFlag(True)
+    g.layoutChildren()
+    return g
+
+
+# ----------------------------------------------------------------------------- fence
+FENCE_CODE = '''
+# A picket fence around the plot, with an opening for the gate.
+# FR : une cloture a piquets autour de la parcelle, avec une ouverture pour le portail.
+import hou, math
+node = hou.pwd()
+geo = node.geometry()
+P = %r
+
+def box(cx, cy, cz, sx, sy, sz, name):
+    b = geo.createPolygon
+    pts = []
+    for dx, dy, dz in ((-1,-1,-1), (1,-1,-1), (1,-1,1), (-1,-1,1),
+                       (-1,1,-1), (1,1,-1), (1,1,1), (-1,1,1)):
+        p = geo.createPoint()
+        p.setPosition(hou.Vector3(cx + dx * sx / 2, cy + dy * sy / 2, cz + dz * sz / 2))
+        pts.append(p)
+    faces = ((0,1,2,3), (7,6,5,4), (0,4,5,1), (1,5,6,2), (2,6,7,3), (3,7,4,0))
+    for f in faces:
+        poly = geo.createPolygon()
+        for i in f:
+            poly.addVertex(pts[i])
+
+def picket(x, z, ux, uz, base):
+    h = P['fence_height']
+    w, t = P['picket_width'], P['picket_thickness']
+    sx = w if abs(ux) < 0.5 else t
+    sz = t if abs(ux) < 0.5 else w
+    box(x, base + h / 2, z, sx, h, sz, 'picket')
+    box(x, base + h + P['picket_point'] / 2, z, sx * 0.6, P['picket_point'], sz * 0.6, 'tip')
+
+def run(ax, az, bx, bz, base):
+    dx, dz = bx - ax, bz - az
+    length = math.hypot(dx, dz)
+    if length < 1e-4:
+        return
+    ux, uz = dx / length, dz / length
+    n = max(1, int(length / P['picket_spacing']))
+    for i in range(n + 1):
+        t = i / float(n)
+        picket(ax + dx * t, az + dz * t, ux, uz, base)
+    for level in (0.25, 0.80):
+        y = base + P['fence_height'] * level
+        box((ax + bx) / 2, y, (az + bz) / 2,
+            length if abs(ux) > 0.5 else P['rail_thickness'],
+            P['rail_height'],
+            P['rail_thickness'] if abs(ux) > 0.5 else length, 'rail')
+    n_posts = max(1, int(length / P['post_spacing']))
+    for i in range(n_posts + 1):
+        t = i / float(n_posts)
+        px, pz = ax + dx * t, az + dz * t
+        s = P['post_size']
+        box(px, base + (P['fence_height'] + 0.16) / 2, pz, s, P['fence_height'] + 0.16, s, 'post')
+        box(px, base + P['fence_height'] + 0.16 + 0.03, pz, s * 1.25, 0.06, s * 1.25, 'post_cap')
+
+hx, hz = P['plot_half_x'], P['plot_half_z']
+half_gate = P['gate_width'] / 2
+base = 0.0
+# three full sides
+run(-hx, -hz, hx, -hz, base)
+run(hx, -hz, hx, hz, base)
+run(hx, hz, -hx, hz, base)
+# the entrance side, opened in the middle
+run(-hx, hz, -hx, -hz, base) if False else None
+run(-hx, hz, -hx, half_gate, base)
+run(-hx, -half_gate, -hx, -hz, base)
+''' % PARAMS
+
+
+def build_fence():
+    g = fresh('Env_Fence')
+    sop = python_sop(g, 'fence', FENCE_CODE)
+    fuse = g.createNode('fuse', 'weld')
+    fuse.setFirstInput(sop)
+    normals = g.createNode('normal', 'normals')
+    normals.setFirstInput(fuse)
+    out = g.createNode('null', 'OUT_fence')
+    out.setFirstInput(normals)
+    out.setDisplayFlag(True)
+    out.setRenderFlag(True)
+    g.layoutChildren()
+    return g
+
+
+if __name__ == '__main__':
+    ground = build_ground()
+    fence = build_fence()
+    print('sol :', ground.path())
+    print('cloture :', fence.path())
