@@ -1,0 +1,65 @@
+{
+  "component": "Component_Roof",
+  "version": "v003",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:25",
+  "saved_at_iso": "2026-09-18T11:16:25+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church/Component_Roof",
+  "children": [
+    {
+      "name": "build_roof_structure",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_shingles",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_ridge_cap",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge_parts",
+      "type": "merge"
+    },
+    {
+      "name": "compute_uvs",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "clean_attribs",
+      "type": "attribdelete"
+    },
+    {
+      "name": "set_color",
+      "type": "color"
+    },
+    {
+      "name": "compute_normals",
+      "type": "normal"
+    },
+    {
+      "name": "OUT_roof_v002",
+      "type": "null"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 5176,
+    "prims": 3992,
+    "bbox": [
+      [
+        -2.285012722015381,
+        2.077772378921509,
+        -3.3743271827697754
+      ],
+      [
+        2.285012722015381,
+        4.654000759124756,
+        3.3743271827697754
+      ]
+    ]
+  }
+}

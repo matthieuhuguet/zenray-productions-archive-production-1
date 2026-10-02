@@ -1,0 +1,69 @@
+{
+  "component": "Component_Armature",
+  "version": "v005",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:12",
+  "saved_at_iso": "2026-09-18T11:16:12+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church/Component_Armature",
+  "children": [
+    {
+      "name": "generate_frame_curves",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "generate_gables_and_arches",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge_all_wireframes",
+      "type": "merge"
+    },
+    {
+      "name": "sweep_timber_beams",
+      "type": "sweep::2.0"
+    },
+    {
+      "name": "compute_normals",
+      "type": "normal"
+    },
+    {
+      "name": "color_timber",
+      "type": "color"
+    },
+    {
+      "name": "OUT_v004",
+      "type": "null"
+    },
+    {
+      "name": "beam_id",
+      "type": "connectivity"
+    },
+    {
+      "name": "uv_variation_offset",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "set_pscale",
+      "type": "attribwrangle"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 4352,
+    "prims": 3692,
+    "bbox": [
+      [
+        -2.055000066757202,
+        -2.98023217215615e-10,
+        -3.055000066757202
+      ],
+      [
+        2.055000066757202,
+        5.450000286102295,
+        3.1050000190734863
+      ]
+    ]
+  }
+}

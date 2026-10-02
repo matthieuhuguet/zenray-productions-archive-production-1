@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchStairs",
+  "node_type": "subnet",
+  "label": "shifted_x_minus_038_flush_deck_step4",
+  "version": "v005",
+  "timestamp": "2026-09-12 15:30:31",
+  "points": 964,
+  "prims": 648,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

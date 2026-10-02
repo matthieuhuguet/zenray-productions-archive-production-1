@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchVestibule",
+  "node_type": "subnet",
+  "label": "clean_roof_cut_gable_curve_fit_normals",
+  "version": "v007",
+  "timestamp": "2026-09-12 15:58:37",
+  "points": 2752,
+  "prims": 1754,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

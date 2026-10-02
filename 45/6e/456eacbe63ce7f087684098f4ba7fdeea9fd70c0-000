@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchVestibule",
+  "node_type": "subnet",
+  "label": "flared_roof_clean_normals",
+  "version": "v003",
+  "timestamp": "2026-09-12 15:04:08",
+  "points": 4019,
+  "prims": 1270,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

@@ -1,0 +1,77 @@
+{
+  "component": "Component_PorchStairs",
+  "version": "v006",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:21",
+  "saved_at_iso": "2026-09-18T11:16:21+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church/Component_PorchStairs",
+  "children": [
+    {
+      "name": "porch_params",
+      "type": "null"
+    },
+    {
+      "name": "railings",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge1",
+      "type": "merge"
+    },
+    {
+      "name": "support_beams",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge2",
+      "type": "merge"
+    },
+    {
+      "name": "compute_normals",
+      "type": "normal"
+    },
+    {
+      "name": "material1",
+      "type": "color"
+    },
+    {
+      "name": "xform_offset",
+      "type": "xform"
+    },
+    {
+      "name": "OUT_porchstairs_v005",
+      "type": "null"
+    },
+    {
+      "name": "stairs_geo",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "stair_piece_id",
+      "type": "connectivity"
+    },
+    {
+      "name": "uv_variation_offset",
+      "type": "attribwrangle"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 964,
+    "prims": 648,
+    "bbox": [
+      [
+        -0.9837499856948853,
+        0.0,
+        3.0
+      ],
+      [
+        0.22374999523162842,
+        1.559000015258789,
+        5.253749847412109
+      ]
+    ]
+  }
+}

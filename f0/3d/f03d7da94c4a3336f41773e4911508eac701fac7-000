@@ -1,0 +1,73 @@
+{
+  "component": "Component_WoodFacade",
+  "active_version": "v005",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_stable_state",
+      "dir_name": "v001_initial_stable_state",
+      "timestamp": "2026-09-11 21:08:32",
+      "points": 560,
+      "prims": 140,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "symmetric_gable_cuts",
+      "dir_name": "v002_symmetric_gable_cuts",
+      "timestamp": "2026-09-11 21:30:06",
+      "points": 552,
+      "prims": 138,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "per_plank_uv_offset",
+      "dir_name": "v003_per_plank_uv_offset",
+      "timestamp": "2026-09-13 10:28:42",
+      "points": 580,
+      "prims": 145,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v004",
+      "label": "per_plank_uv_controls",
+      "dir_name": "v004_per_plank_uv_controls",
+      "timestamp": "2026-09-14 13:11:17",
+      "points": 580,
+      "prims": 145,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v005",
+      "label": "texturing_start",
+      "dir_name": "v005_texturing_start",
+      "timestamp": "2026-09-18 11:16:16",
+      "saved_at_iso": "2026-09-18T11:16:16+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_WoodFacade",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 580,
+        "prims": 145,
+        "bbox": [
+          [
+            -2.0250000953674316,
+            0.0,
+            -3.0250000953674316
+          ],
+          [
+            2.0250000953674316,
+            4.62000036239624,
+            3.0250000953674316
+          ]
+        ]
+      },
+      "children_count": 6
+    }
+  ]
+}

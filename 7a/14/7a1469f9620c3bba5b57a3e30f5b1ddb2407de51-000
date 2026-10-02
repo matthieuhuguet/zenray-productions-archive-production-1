@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_WindowA",
+  "node_type": "subnet",
+  "label": "open_shutters_static_165deg",
+  "version": "v007",
+  "timestamp": "2026-09-12 14:11:56",
+  "points": 6384,
+  "prims": 4644,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

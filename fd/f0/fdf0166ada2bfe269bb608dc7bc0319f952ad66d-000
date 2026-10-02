@@ -1,0 +1,224 @@
+{
+  "label1": {
+    "val": "Sub-Network Input #1",
+    "raw": "Sub-Network Input #1",
+    "has_expr": false,
+    "expr": null
+  },
+  "label2": {
+    "val": "Sub-Network Input #2",
+    "raw": "Sub-Network Input #2",
+    "has_expr": false,
+    "expr": null
+  },
+  "label3": {
+    "val": "Sub-Network Input #3",
+    "raw": "Sub-Network Input #3",
+    "has_expr": false,
+    "expr": null
+  },
+  "label4": {
+    "val": "Sub-Network Input #4",
+    "raw": "Sub-Network Input #4",
+    "has_expr": false,
+    "expr": null
+  },
+  "standardfolder1": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v007 (open_shutters_static_165deg)",
+    "raw": "v007 (open_shutters_static_165deg)",
+    "has_expr": false,
+    "expr": null
+  },
+  "folder_shutters1": {
+    "val": 0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "shutter_angle": {
+    "val": 165.0,
+    "raw": "165",
+    "has_expr": false,
+    "expr": null
+  },
+  "enable_shutters": {
+    "val": 1,
+    "raw": "on",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_count": {
+    "val": 20,
+    "raw": "20",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_angle": {
+    "val": 22.0,
+    "raw": "22",
+    "has_expr": false,
+    "expr": null
+  },
+  "shutter_rail_width": {
+    "val": 0.055,
+    "raw": "0.055",
+    "has_expr": false,
+    "expr": null
+  },
+  "pane_cols": {
+    "val": 3,
+    "raw": "3",
+    "has_expr": false,
+    "expr": null
+  },
+  "pane_rows_per_sash": {
+    "val": 2,
+    "raw": "2",
+    "has_expr": false,
+    "expr": null
+  },
+  "sash_open_amount": {
+    "val": 0.3,
+    "raw": "0.3",
+    "has_expr": false,
+    "expr": null
+  },
+  "sash_frame_width": {
+    "val": 0.042,
+    "raw": "0.042",
+    "has_expr": false,
+    "expr": null
+  },
+  "sash_frame_depth": {
+    "val": 0.032,
+    "raw": "0.032",
+    "has_expr": false,
+    "expr": null
+  },
+  "muntin_width": {
+    "val": 0.016,
+    "raw": "0.016",
+    "has_expr": false,
+    "expr": null
+  },
+  "muntin_depth": {
+    "val": 0.014,
+    "raw": "0.014",
+    "has_expr": false,
+    "expr": null
+  },
+  "window_width": {
+    "val": 0.5,
+    "raw": "0.5",
+    "has_expr": false,
+    "expr": null
+  },
+  "window_height": {
+    "val": 0.9,
+    "raw": "0.9",
+    "has_expr": false,
+    "expr": null
+  },
+  "frame_depth": {
+    "val": 0.16,
+    "raw": "0.16",
+    "has_expr": false,
+    "expr": null
+  },
+  "casing_width": {
+    "val": 0.075,
+    "raw": "0.075",
+    "has_expr": false,
+    "expr": null
+  },
+  "casing_thickness": {
+    "val": 0.025,
+    "raw": "0.025",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_depth": {
+    "val": 0.11,
+    "raw": "0.11",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_height": {
+    "val": 0.055,
+    "raw": "0.055",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_overhang": {
+    "val": 0.04,
+    "raw": "0.04",
+    "has_expr": false,
+    "expr": null
+  },
+  "lintel_height": {
+    "val": 0.085,
+    "raw": "0.085",
+    "has_expr": false,
+    "expr": null
+  },
+  "lintel_depth": {
+    "val": 0.045,
+    "raw": "0.045",
+    "has_expr": false,
+    "expr": null
+  },
+  "apron_height": {
+    "val": 0.11,
+    "raw": "0.11",
+    "has_expr": false,
+    "expr": null
+  },
+  "apron_thickness": {
+    "val": 0.025,
+    "raw": "0.025",
+    "has_expr": false,
+    "expr": null
+  },
+  "num_side_windows": {
+    "val": 3,
+    "raw": "3",
+    "has_expr": false,
+    "expr": null
+  },
+  "winA_spacing": {
+    "val": 1.6,
+    "raw": "ch(\"../winA_spacing\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "winA_sill_y": {
+    "val": 0.65,
+    "raw": "ch(\"../winA_sill_y\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "building_width": {
+    "val": 4.0,
+    "raw": "ch(\"../width\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_density": {
+    "val": 4.0,
+    "raw": "4",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_seed": {
+    "val": 42,
+    "raw": "42",
+    "has_expr": false,
+    "expr": null
+  }
+}

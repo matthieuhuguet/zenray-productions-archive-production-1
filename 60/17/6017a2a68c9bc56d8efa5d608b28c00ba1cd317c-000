@@ -1,0 +1,53 @@
+{
+  "component": "Component_Roof",
+  "active_version": "v003",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_clean_normals",
+      "dir_name": "v001_initial_clean_normals",
+      "timestamp": "2026-09-11 20:52:12",
+      "points": 5528,
+      "prims": 4256,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "malleable_trimmed_ridge",
+      "dir_name": "v002_malleable_trimmed_ridge",
+      "timestamp": "2026-09-11 20:54:23",
+      "points": 5176,
+      "prims": 3992,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "texturing_start",
+      "dir_name": "v003_texturing_start",
+      "timestamp": "2026-09-18 11:16:25",
+      "saved_at_iso": "2026-09-18T11:16:25+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_Roof",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 5176,
+        "prims": 3992,
+        "bbox": [
+          [
+            -2.285012722015381,
+            2.077772378921509,
+            -3.3743271827697754
+          ],
+          [
+            2.285012722015381,
+            4.654000759124756,
+            3.3743271827697754
+          ]
+        ]
+      },
+      "children_count": 9
+    }
+  ]
+}

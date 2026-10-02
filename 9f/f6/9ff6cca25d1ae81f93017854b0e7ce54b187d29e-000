@@ -1,0 +1,146 @@
+{
+  "label1": {
+    "val": "Sub-Network Input #1",
+    "raw": "Sub-Network Input #1",
+    "has_expr": false,
+    "expr": null
+  },
+  "label2": {
+    "val": "Sub-Network Input #2",
+    "raw": "Sub-Network Input #2",
+    "has_expr": false,
+    "expr": null
+  },
+  "label3": {
+    "val": "Sub-Network Input #3",
+    "raw": "Sub-Network Input #3",
+    "has_expr": false,
+    "expr": null
+  },
+  "label4": {
+    "val": "Sub-Network Input #4",
+    "raw": "Sub-Network Input #4",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v004 (aligned_narrow_stairs)",
+    "raw": "v004 (aligned_narrow_stairs)",
+    "has_expr": false,
+    "expr": null
+  },
+  "standardfolder1": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_params": {
+    "val": 0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "step_count": {
+    "val": 4,
+    "raw": "ch(\"../step_count\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "step_height": {
+    "val": 0.15,
+    "raw": "ch(\"../step_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_width": {
+    "val": 1.05,
+    "raw": "ch(\"../porch_width\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "railing_height": {
+    "val": 0.85,
+    "raw": "ch(\"../railing_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "step_run": {
+    "val": 0.24,
+    "raw": "ch(\"../step_run\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_depth": {
+    "val": 1.25,
+    "raw": "ch(\"../porch_depth\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "tread_thickness": {
+    "val": 0.04,
+    "raw": "0.04",
+    "has_expr": false,
+    "expr": null
+  },
+  "nosing": {
+    "val": 0.0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "post_width": {
+    "val": 0.07,
+    "raw": "0.07",
+    "has_expr": false,
+    "expr": null
+  },
+  "baluster_width": {
+    "val": 0.024,
+    "raw": "0.024",
+    "has_expr": false,
+    "expr": null
+  },
+  "baluster_spacing": {
+    "val": 0.09,
+    "raw": "ch(\"../baluster_spacing\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "offset_z": {
+    "val": 4.25,
+    "raw": "ch(\"../length\") * 0.5 + ch(\"../porch_depth\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_seed": {
+    "val": 42.0,
+    "raw": "42",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_v_offset_scale": {
+    "val": 5.0,
+    "raw": "5",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_random_flip": {
+    "val": 1,
+    "raw": "on",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_u_variants": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "offset_x": {
+    "val": -0.38,
+    "raw": "-0.38",
+    "has_expr": false,
+    "expr": null
+  }
+}

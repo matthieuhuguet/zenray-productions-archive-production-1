@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchStairs",
+  "node_type": "subnet",
+  "label": "aligned_narrow_stairs",
+  "version": "v004",
+  "timestamp": "2026-09-12 15:05:40",
+  "points": 964,
+  "prims": 648,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

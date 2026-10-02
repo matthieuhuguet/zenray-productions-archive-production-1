@@ -1,0 +1,98 @@
+{
+  "label1": {
+    "val": "Sub-Network Input #1",
+    "raw": "Sub-Network Input #1",
+    "has_expr": false,
+    "expr": null
+  },
+  "label2": {
+    "val": "Sub-Network Input #2",
+    "raw": "Sub-Network Input #2",
+    "has_expr": false,
+    "expr": null
+  },
+  "label3": {
+    "val": "Sub-Network Input #3",
+    "raw": "Sub-Network Input #3",
+    "has_expr": false,
+    "expr": null
+  },
+  "label4": {
+    "val": "Sub-Network Input #4",
+    "raw": "Sub-Network Input #4",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v002 (refined_lap_siding_and_shingles)",
+    "raw": "v002 (refined_lap_siding_and_shingles)",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_width": {
+    "val": 1.3,
+    "raw": "1.3",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_depth": {
+    "val": 1.35,
+    "raw": "1.35",
+    "has_expr": false,
+    "expr": null
+  },
+  "landing_y": {
+    "val": 0.7,
+    "raw": "0.7",
+    "has_expr": false,
+    "expr": null
+  },
+  "wall_height": {
+    "val": 1.55,
+    "raw": "1.55",
+    "has_expr": false,
+    "expr": null
+  },
+  "gable_height": {
+    "val": 0.7,
+    "raw": "0.7",
+    "has_expr": false,
+    "expr": null
+  },
+  "door_width": {
+    "val": 0.78,
+    "raw": "0.78",
+    "has_expr": false,
+    "expr": null
+  },
+  "door_height": {
+    "val": 1.25,
+    "raw": "1.25",
+    "has_expr": false,
+    "expr": null
+  },
+  "transom_height": {
+    "val": 0.26,
+    "raw": "0.26",
+    "has_expr": false,
+    "expr": null
+  },
+  "transom_panes": {
+    "val": 4,
+    "raw": "4",
+    "has_expr": false,
+    "expr": null
+  },
+  "z_front": {
+    "val": 4.35,
+    "raw": "4.35",
+    "has_expr": false,
+    "expr": null
+  },
+  "z_back": {
+    "val": 3.0,
+    "raw": "3",
+    "has_expr": false,
+    "expr": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "component": "Component_PorchStairs",
+  "active_version": "v006",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_stable_state",
+      "dir_name": "v001_initial_stable_state",
+      "timestamp": "2026-09-11 21:08:32",
+      "points": 1100,
+      "prims": 700,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "half_width",
+      "dir_name": "v002_half_width",
+      "timestamp": "2026-09-11 21:21:59",
+      "points": 1100,
+      "prims": 700,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "compact_straight_stairs",
+      "dir_name": "v003_compact_straight_stairs",
+      "timestamp": "2026-09-12 14:37:22",
+      "points": 1064,
+      "prims": 698,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v004",
+      "label": "aligned_narrow_stairs",
+      "dir_name": "v004_aligned_narrow_stairs",
+      "timestamp": "2026-09-12 15:05:40",
+      "points": 964,
+      "prims": 648,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v005",
+      "label": "shifted_x_minus_038_flush_deck_step4",
+      "dir_name": "v005_shifted_x_minus_038_flush_deck_step4",
+      "timestamp": "2026-09-12 15:30:31",
+      "points": 964,
+      "prims": 648,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v006",
+      "label": "texturing_start",
+      "dir_name": "v006_texturing_start",
+      "timestamp": "2026-09-18 11:16:21",
+      "saved_at_iso": "2026-09-18T11:16:21+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_PorchStairs",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 964,
+        "prims": 648,
+        "bbox": [
+          [
+            -0.9837499856948853,
+            0.0,
+            3.0
+          ],
+          [
+            0.22374999523162842,
+            1.559000015258789,
+            5.253749847412109
+          ]
+        ]
+      },
+      "children_count": 12
+    }
+  ]
+}

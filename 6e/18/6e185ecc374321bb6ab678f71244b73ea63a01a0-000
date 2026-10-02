@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_WindowB",
+  "node_type": "subnet",
+  "label": "arch_aligned_compact",
+  "version": "v008",
+  "timestamp": "2026-09-12 15:00:07",
+  "points": 952,
+  "prims": 710,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

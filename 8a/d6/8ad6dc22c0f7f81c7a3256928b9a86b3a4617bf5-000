@@ -1,0 +1,188 @@
+{
+  "label1": {
+    "val": "Sub-Network Input #1",
+    "raw": "Sub-Network Input #1",
+    "has_expr": false,
+    "expr": null
+  },
+  "label2": {
+    "val": "Sub-Network Input #2",
+    "raw": "Sub-Network Input #2",
+    "has_expr": false,
+    "expr": null
+  },
+  "label3": {
+    "val": "Sub-Network Input #3",
+    "raw": "Sub-Network Input #3",
+    "has_expr": false,
+    "expr": null
+  },
+  "label4": {
+    "val": "Sub-Network Input #4",
+    "raw": "Sub-Network Input #4",
+    "has_expr": false,
+    "expr": null
+  },
+  "standardfolder1": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v002 (malleable_louvers_mullion)",
+    "raw": "v002 (malleable_louvers_mullion)",
+    "has_expr": false,
+    "expr": null
+  },
+  "folder_louvers1": {
+    "val": 0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_count": {
+    "val": 22,
+    "raw": "22",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_angle": {
+    "val": 25.0,
+    "raw": "25",
+    "has_expr": false,
+    "expr": null
+  },
+  "center_mullion_width": {
+    "val": 0.045,
+    "raw": "0.045",
+    "has_expr": false,
+    "expr": null
+  },
+  "center_mullion_depth": {
+    "val": 0.04,
+    "raw": "0.04",
+    "has_expr": false,
+    "expr": null
+  },
+  "inner_frame_width": {
+    "val": 0.04,
+    "raw": "0.04",
+    "has_expr": false,
+    "expr": null
+  },
+  "inner_frame_depth": {
+    "val": 0.035,
+    "raw": "0.035",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_recess": {
+    "val": 0.05,
+    "raw": "0.05",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_thickness": {
+    "val": 0.009,
+    "raw": "0.009",
+    "has_expr": false,
+    "expr": null
+  },
+  "louver_depth": {
+    "val": 0.036,
+    "raw": "0.036",
+    "has_expr": false,
+    "expr": null
+  },
+  "window_width": {
+    "val": 0.5,
+    "raw": "0.5",
+    "has_expr": false,
+    "expr": null
+  },
+  "window_height": {
+    "val": 0.95,
+    "raw": "0.95",
+    "has_expr": false,
+    "expr": null
+  },
+  "frame_depth": {
+    "val": 0.18,
+    "raw": "0.18",
+    "has_expr": false,
+    "expr": null
+  },
+  "casing_width": {
+    "val": 0.09,
+    "raw": "0.09",
+    "has_expr": false,
+    "expr": null
+  },
+  "casing_thickness": {
+    "val": 0.03,
+    "raw": "0.03",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_depth": {
+    "val": 0.13,
+    "raw": "0.13",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_height": {
+    "val": 0.08,
+    "raw": "0.08",
+    "has_expr": false,
+    "expr": null
+  },
+  "sill_overhang": {
+    "val": 0.035,
+    "raw": "0.035",
+    "has_expr": false,
+    "expr": null
+  },
+  "lintel_height": {
+    "val": 0.095,
+    "raw": "0.095",
+    "has_expr": false,
+    "expr": null
+  },
+  "lintel_depth": {
+    "val": 0.05,
+    "raw": "0.05",
+    "has_expr": false,
+    "expr": null
+  },
+  "num_gable_windows": {
+    "val": 2,
+    "raw": "2",
+    "has_expr": false,
+    "expr": null
+  },
+  "winB_sill_y": {
+    "val": 0.0,
+    "raw": "ch(\"../../winB_sill_y\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "building_length": {
+    "val": 0.0,
+    "raw": "ch(\"../../length\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_density": {
+    "val": 4.0,
+    "raw": "4",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_seed": {
+    "val": 43,
+    "raw": "43",
+    "has_expr": false,
+    "expr": null
+  }
+}

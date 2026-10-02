@@ -1,0 +1,113 @@
+{
+  "component": "Component_WindowA",
+  "active_version": "v009",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_stable_state",
+      "dir_name": "v001_initial_stable_state",
+      "timestamp": "2026-09-11 21:08:32",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "malleable_animated_shutters",
+      "dir_name": "v002_malleable_animated_shutters",
+      "timestamp": "2026-09-11 21:40:15",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "malleable_animated_shutters",
+      "dir_name": "v003_malleable_animated_shutters",
+      "timestamp": "2026-09-11 21:42:11",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v004",
+      "label": "inverted_shutter_rotation",
+      "dir_name": "v004_inverted_shutter_rotation",
+      "timestamp": "2026-09-11 21:44:48",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v005",
+      "label": "open_shutters_175deg",
+      "dir_name": "v005_open_shutters_175deg",
+      "timestamp": "2026-09-12 13:58:12",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v006",
+      "label": "open_shutters_155deg",
+      "dir_name": "v006_open_shutters_155deg",
+      "timestamp": "2026-09-12 14:02:50",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v007",
+      "label": "open_shutters_static_165deg",
+      "dir_name": "v007_open_shutters_static_165deg",
+      "timestamp": "2026-09-12 14:11:56",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v008",
+      "label": "restored_shutter_louvers",
+      "dir_name": "v008_restored_shutter_louvers",
+      "timestamp": "2026-09-12 14:33:47",
+      "points": 6384,
+      "prims": 4644,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v009",
+      "label": "texturing_start",
+      "dir_name": "v009_texturing_start",
+      "timestamp": "2026-09-18 11:16:34",
+      "saved_at_iso": "2026-09-18T11:16:34+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_WindowA",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 6384,
+        "prims": 4644,
+        "bbox": [
+          [
+            -2.1111440658569336,
+            0.48499998450279236,
+            -2.161834955215454
+          ],
+          [
+            2.1111440658569336,
+            1.7339998483657837,
+            2.161834955215454
+          ]
+        ]
+      },
+      "children_count": 24
+    }
+  ]
+}

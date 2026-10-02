@@ -1,0 +1,143 @@
+{
+  "component": "Component_PorchVestibule",
+  "active_version": "v012",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_stable_state",
+      "dir_name": "v001_initial_stable_state",
+      "timestamp": "2026-09-12 14:37:34",
+      "points": 2380,
+      "prims": 1783,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "refined_lap_siding_and_shingles",
+      "dir_name": "v002_refined_lap_siding_and_shingles",
+      "timestamp": "2026-09-12 14:43:09",
+      "points": 2996,
+      "prims": 953,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "flared_roof_clean_normals",
+      "dir_name": "v003_flared_roof_clean_normals",
+      "timestamp": "2026-09-12 15:04:08",
+      "points": 4019,
+      "prims": 1270,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v004",
+      "label": "flared_roof_clean_normals",
+      "dir_name": "v004_flared_roof_clean_normals",
+      "timestamp": "2026-09-12 15:05:40",
+      "points": 4019,
+      "prims": 1270,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v005",
+      "label": "sealed_roof_matching_ridge",
+      "dir_name": "v005_sealed_roof_matching_ridge",
+      "timestamp": "2026-09-12 15:23:38",
+      "points": 2496,
+      "prims": 1614,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v006",
+      "label": "shifted_x_minus_038_harmonized_dimensions",
+      "dir_name": "v006_shifted_x_minus_038_harmonized_dimensions",
+      "timestamp": "2026-09-12 15:30:27",
+      "points": 2496,
+      "prims": 1614,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v007",
+      "label": "clean_roof_cut_gable_curve_fit_normals",
+      "dir_name": "v007_clean_roof_cut_gable_curve_fit_normals",
+      "timestamp": "2026-09-12 15:58:37",
+      "points": 2752,
+      "prims": 1754,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v008",
+      "label": "symmetric_outward_shingle_normals",
+      "dir_name": "v008_symmetric_outward_shingle_normals",
+      "timestamp": "2026-09-12 16:11:27",
+      "points": 2752,
+      "prims": 1754,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v009",
+      "label": "vestibule_uvs_complete",
+      "dir_name": "v009_vestibule_uvs_complete",
+      "timestamp": "2026-09-12 16:12:47",
+      "points": 2752,
+      "prims": 1754,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v010",
+      "label": "perfect_square_uvs_texel4",
+      "dir_name": "v010_perfect_square_uvs_texel4",
+      "timestamp": "2026-09-12 16:18:45",
+      "points": 2752,
+      "prims": 1754,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v011",
+      "label": "porch_uv_metric_scaled",
+      "dir_name": "v011_porch_uv_metric_scaled",
+      "timestamp": "2026-09-14 14:11:45",
+      "points": 2752,
+      "prims": 1754,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v012",
+      "label": "texturing_start",
+      "dir_name": "v012_texturing_start",
+      "timestamp": "2026-09-18 11:16:29",
+      "saved_at_iso": "2026-09-18T11:16:29+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_PorchVestibule",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 2752,
+        "prims": 1754,
+        "bbox": [
+          [
+            -1.0416414737701416,
+            0.5700000524520874,
+            2.8873751163482666
+          ],
+          [
+            0.28164142370224,
+            2.7350268363952637,
+            4.375
+          ]
+        ]
+      },
+      "children_count": 9
+    }
+  ]
+}

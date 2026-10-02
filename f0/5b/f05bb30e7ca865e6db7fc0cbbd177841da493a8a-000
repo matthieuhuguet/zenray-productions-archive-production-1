@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_WindowB",
+  "node_type": "subnet",
+  "label": "open_louvers_50deg",
+  "version": "v004",
+  "timestamp": "2026-09-12 14:02:50",
+  "points": 952,
+  "prims": 710,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

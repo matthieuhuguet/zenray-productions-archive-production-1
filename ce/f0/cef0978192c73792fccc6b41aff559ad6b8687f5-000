@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchVestibule",
+  "node_type": "subnet",
+  "label": "initial_stable_state",
+  "version": "v001",
+  "timestamp": "2026-09-12 14:37:34",
+  "points": 2380,
+  "prims": 1783,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

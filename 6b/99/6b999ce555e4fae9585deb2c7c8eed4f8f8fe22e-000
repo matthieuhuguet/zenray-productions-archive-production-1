@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchVestibule",
+  "node_type": "subnet",
+  "label": "refined_lap_siding_and_shingles",
+  "version": "v002",
+  "timestamp": "2026-09-12 14:43:09",
+  "points": 2996,
+  "prims": 953,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

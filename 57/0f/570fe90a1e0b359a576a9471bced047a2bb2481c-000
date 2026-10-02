@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_PorchVestibule",
+  "node_type": "subnet",
+  "label": "shifted_x_minus_038_harmonized_dimensions",
+  "version": "v006",
+  "timestamp": "2026-09-12 15:30:27",
+  "points": 2496,
+  "prims": 1614,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_WindowA",
+  "node_type": "subnet",
+  "label": "restored_shutter_louvers",
+  "version": "v008",
+  "timestamp": "2026-09-12 14:33:47",
+  "points": 6384,
+  "prims": 4644,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

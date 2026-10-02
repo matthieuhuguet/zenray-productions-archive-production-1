@@ -1,0 +1,97 @@
+{
+  "component": "Component_WindowB",
+  "version": "v009",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:38",
+  "saved_at_iso": "2026-09-18T11:16:38+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church/Component_WindowB",
+  "children": [
+    {
+      "name": "build_frame",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_inner_reveal",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_louvers",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge_parts",
+      "type": "merge"
+    },
+    {
+      "name": "compute_normals",
+      "type": "normal"
+    },
+    {
+      "name": "compute_uvs_and_colors",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "window_b_unit",
+      "type": "null"
+    },
+    {
+      "name": "place_rear_gable",
+      "type": "xform"
+    },
+    {
+      "name": "OUT_window_b_v008",
+      "type": "null"
+    },
+    {
+      "name": "place_front_gable",
+      "type": "xform"
+    },
+    {
+      "name": "merge_2_windows_b",
+      "type": "merge"
+    },
+    {
+      "name": "promote_uv",
+      "type": "attribpromote"
+    },
+    {
+      "name": "clean_attribs",
+      "type": "attribdelete"
+    },
+    {
+      "name": "norm_final",
+      "type": "normal"
+    },
+    {
+      "name": "set_color",
+      "type": "color"
+    },
+    {
+      "name": "reverse_faces",
+      "type": "reverse"
+    },
+    {
+      "name": "switch_num_windows",
+      "type": "switch"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 952,
+    "prims": 710,
+    "bbox": [
+      [
+        -0.3199999928474426,
+        2.815000057220459,
+        -3.130000114440918
+      ],
+      [
+        0.3199999928474426,
+        3.759999990463257,
+        3.130000114440918
+      ]
+    ]
+  }
+}

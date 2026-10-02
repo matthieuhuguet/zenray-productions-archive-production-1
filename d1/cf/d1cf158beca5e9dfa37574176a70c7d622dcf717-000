@@ -1,0 +1,125 @@
+{
+  "component": "Component_WindowA",
+  "version": "v009",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:34",
+  "saved_at_iso": "2026-09-18T11:16:34+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church/Component_WindowA",
+  "children": [
+    {
+      "name": "build_frame",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_sashes",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_glass",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "build_shutters",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "merge_parts",
+      "type": "merge"
+    },
+    {
+      "name": "compute_normals",
+      "type": "normal"
+    },
+    {
+      "name": "compute_uvs_and_colors",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "window_unit",
+      "type": "null"
+    },
+    {
+      "name": "merge_6_windows",
+      "type": "merge"
+    },
+    {
+      "name": "left_0",
+      "type": "xform"
+    },
+    {
+      "name": "left_1",
+      "type": "xform"
+    },
+    {
+      "name": "left_2",
+      "type": "xform"
+    },
+    {
+      "name": "right_0",
+      "type": "xform"
+    },
+    {
+      "name": "right_1",
+      "type": "xform"
+    },
+    {
+      "name": "right_2",
+      "type": "xform"
+    },
+    {
+      "name": "OUT_window_a_v008",
+      "type": "null"
+    },
+    {
+      "name": "clean_attribs",
+      "type": "attribdelete"
+    },
+    {
+      "name": "promote_uv",
+      "type": "attribpromote"
+    },
+    {
+      "name": "norm_final",
+      "type": "normal"
+    },
+    {
+      "name": "set_color",
+      "type": "color"
+    },
+    {
+      "name": "reverse_faces",
+      "type": "reverse"
+    },
+    {
+      "name": "merge_2_windows",
+      "type": "merge"
+    },
+    {
+      "name": "merge_4_windows",
+      "type": "merge"
+    },
+    {
+      "name": "switch_num_windows",
+      "type": "switch"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 6384,
+    "prims": 4644,
+    "bbox": [
+      [
+        -2.1111440658569336,
+        0.48499998450279236,
+        -2.161834955215454
+      ],
+      [
+        2.1111440658569336,
+        1.7339998483657837,
+        2.161834955215454
+      ]
+    ]
+  }
+}

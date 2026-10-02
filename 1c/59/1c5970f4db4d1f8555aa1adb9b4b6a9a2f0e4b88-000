@@ -1,0 +1,128 @@
+{
+  "folder_roof_dim1": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "width": {
+    "val": 4.0,
+    "raw": "ch(\"../width\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "length": {
+    "val": 6.0,
+    "raw": "ch(\"../length\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "wall_height": {
+    "val": 2.2,
+    "raw": "ch(\"../wall_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "gable_height": {
+    "val": 2.4,
+    "raw": "ch(\"../rear_gable_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "eave_overhang": {
+    "val": 0.22,
+    "raw": "ch(\"../roof_eave_overhang\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "gable_overhang": {
+    "val": 0.32,
+    "raw": "ch(\"../roof_gable_overhang\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "fascia_thickness": {
+    "val": 0.032,
+    "raw": "0.032",
+    "has_expr": false,
+    "expr": null
+  },
+  "fascia_depth": {
+    "val": 0.14,
+    "raw": "0.14",
+    "has_expr": false,
+    "expr": null
+  },
+  "decking_thickness": {
+    "val": 0.028,
+    "raw": "0.028",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_rows": {
+    "val": 14,
+    "raw": "ch(\"../roof_shingle_rows\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_cols": {
+    "val": 21,
+    "raw": "ch(\"../roof_shingle_cols\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_overlap": {
+    "val": 0.095,
+    "raw": "0.095",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_thickness": {
+    "val": 0.022,
+    "raw": "ch(\"../roof_shingle_thickness\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_rot_random": {
+    "val": 1.5,
+    "raw": "1.5",
+    "has_expr": false,
+    "expr": null
+  },
+  "shingle_slope_tilt": {
+    "val": 0.0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "enable_ridge_cap": {
+    "val": 1,
+    "raw": "ch(\"../roof_enable_ridge\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "ridge_width": {
+    "val": 0.22,
+    "raw": "0.22",
+    "has_expr": false,
+    "expr": null
+  },
+  "ridge_count": {
+    "val": 22,
+    "raw": "22",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_density": {
+    "val": 4.0,
+    "raw": "4",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_seed": {
+    "val": 44,
+    "raw": "44",
+    "has_expr": false,
+    "expr": null
+  }
+}

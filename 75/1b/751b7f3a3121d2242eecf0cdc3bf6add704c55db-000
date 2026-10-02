@@ -1,0 +1,9 @@
+{
+  "node_path": "/obj/Church/Component_Roof",
+  "node_type": "zenray_component_roof",
+  "label": "initial_clean_normals",
+  "timestamp": "2026-09-11 20:52:12",
+  "points": 5528,
+  "prims": 4256,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hip"
+}

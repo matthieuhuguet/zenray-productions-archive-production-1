@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_WindowA",
+  "node_type": "subnet",
+  "label": "malleable_animated_shutters",
+  "version": "v002",
+  "timestamp": "2026-09-11 21:40:15",
+  "points": 6384,
+  "prims": 4644,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hip"
+}

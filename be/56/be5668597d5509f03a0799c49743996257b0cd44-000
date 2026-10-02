@@ -1,0 +1,110 @@
+{
+  "label1": {
+    "val": "Sub-Network Input #1",
+    "raw": "Sub-Network Input #1",
+    "has_expr": false,
+    "expr": null
+  },
+  "label2": {
+    "val": "Sub-Network Input #2",
+    "raw": "Sub-Network Input #2",
+    "has_expr": false,
+    "expr": null
+  },
+  "label3": {
+    "val": "Sub-Network Input #3",
+    "raw": "Sub-Network Input #3",
+    "has_expr": false,
+    "expr": null
+  },
+  "label4": {
+    "val": "Sub-Network Input #4",
+    "raw": "Sub-Network Input #4",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v003 (flared_roof_clean_normals)",
+    "raw": "v003 (flared_roof_clean_normals)",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_width": {
+    "val": 1.05,
+    "raw": "1.05",
+    "has_expr": false,
+    "expr": null
+  },
+  "porch_depth": {
+    "val": 1.25,
+    "raw": "1.25",
+    "has_expr": false,
+    "expr": null
+  },
+  "landing_y": {
+    "val": 0.6,
+    "raw": "0.6",
+    "has_expr": false,
+    "expr": null
+  },
+  "wall_height": {
+    "val": 1.4,
+    "raw": "1.4",
+    "has_expr": false,
+    "expr": null
+  },
+  "gable_height": {
+    "val": 0.65,
+    "raw": "0.65",
+    "has_expr": false,
+    "expr": null
+  },
+  "roof_flare": {
+    "val": 0.35,
+    "raw": "0.35",
+    "has_expr": false,
+    "expr": null
+  },
+  "door_width": {
+    "val": 0.66,
+    "raw": "0.66",
+    "has_expr": false,
+    "expr": null
+  },
+  "door_height": {
+    "val": 1.22,
+    "raw": "1.22",
+    "has_expr": false,
+    "expr": null
+  },
+  "transom_height": {
+    "val": 0.18,
+    "raw": "0.18",
+    "has_expr": false,
+    "expr": null
+  },
+  "transom_panes": {
+    "val": 4,
+    "raw": "4",
+    "has_expr": false,
+    "expr": null
+  },
+  "z_front": {
+    "val": 4.25,
+    "raw": "4.25",
+    "has_expr": false,
+    "expr": null
+  },
+  "z_back": {
+    "val": 3.0,
+    "raw": "3",
+    "has_expr": false,
+    "expr": null
+  },
+  "offset_x": {
+    "val": -0.38,
+    "raw": "-0.38",
+    "has_expr": false,
+    "expr": null
+  }
+}
