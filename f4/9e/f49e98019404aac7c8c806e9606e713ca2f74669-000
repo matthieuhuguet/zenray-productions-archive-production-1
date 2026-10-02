@@ -1,0 +1,92 @@
+{
+  "armature_params1": {
+    "val": 0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  },
+  "front_gable_height": {
+    "val": 2.4,
+    "raw": "ch(\"../front_gable_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "rear_gable_height": {
+    "val": 2.4,
+    "raw": "ch(\"../rear_gable_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "arch_angle": {
+    "val": 55.0,
+    "raw": "ch(\"../arch_angle\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "cross_height": {
+    "val": 0.65,
+    "raw": "ch(\"../cross_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "width": {
+    "val": 4.0,
+    "raw": "ch(\"../width\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "length": {
+    "val": 6.0,
+    "raw": "ch(\"../length\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "wall_height": {
+    "val": 2.2,
+    "raw": "ch(\"../wall_height\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "beam_size": {
+    "val": 0.11,
+    "raw": "ch(\"../beam_size\")",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_seed": {
+    "val": 42.0,
+    "raw": "42",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_v_offset_scale": {
+    "val": 5.0,
+    "raw": "5",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_random_flip": {
+    "val": 1,
+    "raw": "on",
+    "has_expr": false,
+    "expr": null
+  },
+  "uv_u_variants": {
+    "val": 1,
+    "raw": "1",
+    "has_expr": false,
+    "expr": null
+  },
+  "snapshot_version": {
+    "val": "v004 (arch_cross_sync)",
+    "raw": "v004 (arch_cross_sync)",
+    "has_expr": false,
+    "expr": null
+  },
+  "armature_params31": {
+    "val": 0,
+    "raw": "0",
+    "has_expr": false,
+    "expr": null
+  }
+}

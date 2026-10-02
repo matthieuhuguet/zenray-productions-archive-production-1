@@ -1,0 +1,117 @@
+{
+  "component": "Church",
+  "version": "v001",
+  "label": "texturing_start",
+  "timestamp": "2026-09-18 11:16:43",
+  "saved_at_iso": "2026-09-18T11:16:43+02:00",
+  "src_hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/LouisianaBayou.hiplc",
+  "node_path": "/obj/Church",
+  "children": [
+    {
+      "name": "Component_Armature",
+      "type": "zenray_component_armature"
+    },
+    {
+      "name": "Component_WoodFacade",
+      "type": "zenray_component_woodfacade"
+    },
+    {
+      "name": "Component_PorchStairs",
+      "type": "subnet"
+    },
+    {
+      "name": "merge_all",
+      "type": "merge"
+    },
+    {
+      "name": "OUT_church",
+      "type": "null"
+    },
+    {
+      "name": "Component_WindowA",
+      "type": "subnet"
+    },
+    {
+      "name": "Component_WindowB",
+      "type": "subnet"
+    },
+    {
+      "name": "Component_Roof",
+      "type": "zenray_component_roof"
+    },
+    {
+      "name": "Component_PorchVestibule",
+      "type": "subnet"
+    },
+    {
+      "name": "door_cutter_box",
+      "type": "box"
+    },
+    {
+      "name": "boolean_door_cut",
+      "type": "boolean::2.0"
+    },
+    {
+      "name": "mat_tag_armature",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_facade",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_stairs",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_windowA",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_windowB",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_roof",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "mat_tag_vestibule",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "promote_mat_cd",
+      "type": "attribpromote"
+    },
+    {
+      "name": "assign_material_path",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "compute_plank_bounds",
+      "type": "attribwrangle"
+    },
+    {
+      "name": "apply_per_plank_uv",
+      "type": "attribwrangle"
+    }
+  ],
+  "external_inputs": [],
+  "hip_file": "graph.hiplc",
+  "proof_geo": {
+    "points": 21158,
+    "prims": 15585,
+    "bbox": [
+      [
+        -2.285012722015381,
+        -2.98023217215615e-10,
+        -3.3743271827697754
+      ],
+      [
+        2.285012722015381,
+        5.450000286102295,
+        5.253749847412109
+      ]
+    ]
+  }
+}

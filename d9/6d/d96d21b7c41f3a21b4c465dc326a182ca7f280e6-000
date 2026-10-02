@@ -1,0 +1,60 @@
+{
+  "component": "Church",
+  "active_version": "v002",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "texturing_start",
+      "dir_name": "v001_texturing_start",
+      "timestamp": "2026-09-18 11:16:43",
+      "saved_at_iso": "2026-09-18T11:16:43+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 21158,
+        "prims": 15585,
+        "bbox": [
+          [
+            -2.285012722015381,
+            -2.98023217215615e-10,
+            -3.3743271827697754
+          ],
+          [
+            2.285012722015381,
+            5.450000286102295,
+            5.253749847412109
+          ]
+        ]
+      },
+      "children_count": 22
+    },
+    {
+      "version": "v002",
+      "label": "eglise-etat-du-19-septembre",
+      "dir_name": "v002_eglise-etat-du-19-septembre",
+      "timestamp": "2026-09-19 17:41:04",
+      "saved_at_iso": "2026-09-19T17:41:04+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 21158,
+        "prims": 15585,
+        "bbox": [
+          [
+            -2.285012722015381,
+            -2.98023217215615e-10,
+            -3.3743271827697754
+          ],
+          [
+            2.285012722015381,
+            5.450000286102295,
+            5.253749847412109
+          ]
+        ]
+      },
+      "children_count": 22
+    }
+  ]
+}

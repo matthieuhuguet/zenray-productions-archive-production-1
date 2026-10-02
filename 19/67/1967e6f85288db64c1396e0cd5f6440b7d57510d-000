@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_Armature",
+  "node_type": "zenray_component_armature",
+  "label": "slender_cross",
+  "version": "v003",
+  "timestamp": "2026-09-12 14:32:37",
+  "points": 4352,
+  "prims": 3692,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hiplc"
+}

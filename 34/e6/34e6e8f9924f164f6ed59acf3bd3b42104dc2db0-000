@@ -1,0 +1,10 @@
+{
+  "node_path": "/obj/Church/Component_Armature",
+  "node_type": "zenray_component_armature",
+  "label": "ground_aligned",
+  "version": "v002",
+  "timestamp": "2026-09-11 21:25:33",
+  "points": 4352,
+  "prims": 3692,
+  "hip": "/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou.hip"
+}

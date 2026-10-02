@@ -1,0 +1,73 @@
+{
+  "component": "Component_Armature",
+  "active_version": "v005",
+  "versions": [
+    {
+      "version": "v001",
+      "label": "initial_stable_state",
+      "dir_name": "v001_initial_stable_state",
+      "timestamp": "2026-09-11 21:08:32",
+      "points": 4352,
+      "prims": 3692,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v002",
+      "label": "ground_aligned",
+      "dir_name": "v002_ground_aligned",
+      "timestamp": "2026-09-11 21:25:33",
+      "points": 4352,
+      "prims": 3692,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v003",
+      "label": "slender_cross",
+      "dir_name": "v003_slender_cross",
+      "timestamp": "2026-09-12 14:32:37",
+      "points": 4352,
+      "prims": 3692,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v004",
+      "label": "arch_cross_sync",
+      "dir_name": "v004_arch_cross_sync",
+      "timestamp": "2026-09-12 14:59:39",
+      "points": 4352,
+      "prims": 3692,
+      "bgeo_file": "geometry.bgeo.sc",
+      "parms_file": "parms.json"
+    },
+    {
+      "version": "v005",
+      "label": "texturing_start",
+      "dir_name": "v005_texturing_start",
+      "timestamp": "2026-09-18 11:16:12",
+      "saved_at_iso": "2026-09-18T11:16:12+02:00",
+      "kind": "object",
+      "node_path": "/obj/Church/Component_Armature",
+      "hip_file": "graph.hiplc",
+      "proof_geo": {
+        "points": 4352,
+        "prims": 3692,
+        "bbox": [
+          [
+            -2.055000066757202,
+            -2.98023217215615e-10,
+            -3.055000066757202
+          ],
+          [
+            2.055000066757202,
+            5.450000286102295,
+            3.1050000190734863
+          ]
+        ]
+      },
+      "children_count": 10
+    }
+  ]
+}
